@@ -1,0 +1,58 @@
+# ===== 运行时环境 =====
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# ===== 模型权重（约 9.7GB，由 tools/download_model.py 下载）=====
+models/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.onnx
+*.gguf
+
+# ===== 向量索引与中间数据 =====
+temp/
+index_run/
+frames/
+rsz/
+embs/
+*.npy
+*.npz
+assets.jsonl
+index_meta.jsonl
+index_summary.json
+
+# ===== 程序与发布产物（走 Releases 分发）=====
+app/
+win-unpacked/
+dist/
+release/
+installers/
+*.zip
+*.rar
+*.7z
+
+# ===== 日志与临时文件 =====
+*.log
+logs/
+*.tmp
+*.bak
+
+# ===== 本地配置与凭据 =====
+.env
+*.local
+*.secret
+config.local.*
+
+# ===== 编辑器 / 系统 =====
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+Desktop.ini
+~$*

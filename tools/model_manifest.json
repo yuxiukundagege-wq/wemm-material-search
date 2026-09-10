@@ -1,0 +1,25 @@
+{
+  "repo_id": "tencent/WeMM-Embedding-4B",
+  "endpoint": "https://hf-mirror.com",
+  "note": "size 为字节数, 用于判断本地权重是否完整(缺失/大小不符则续传下载)",
+  "files": {
+    ".gitattributes": 50,
+    "LICENSE": 24546,
+    "README.md": 7894,
+    "additional_chat_templates/sentence_transformers.jinja": 1452,
+    "chat_template.jinja": 7755,
+    "config.json": 3058,
+    "config_sentence_transformers.json": 245,
+    "embedding_chat_template.jinja": 1086,
+    "model.safetensors": 10347541240,
+    "modeling_st_wemm.py": 3180,
+    "modeling_wemm_embedding.py": 1205,
+    "modules.json": 106,
+    "patch_sglang_video.py": 1983,
+    "processor_config.json": 1192,
+    "sentence_bert_config.json": 950,
+    "tokenizer.json": 19990378,
+    "tokenizer_config.json": 1148
+  },
+  "total_bytes": 10367587468
+}
